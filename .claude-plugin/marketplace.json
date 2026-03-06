@@ -1,0 +1,23 @@
+{
+  "name": "jaspersui-marketplace",
+  "owner": {
+    "name": "Jasper Sui",
+    "email": "me@j-sui.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Jasper Sui",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "iterm2-tab-status",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JasperSui/claude-code-iterm2-tab-status.git"
+      },
+      "description": "Show iTerm2 tab status (running/idle/attention) for Claude Code sessions",
+      "version": "0.1.0",
+      "strict": true
+    }
+  ]
+}
